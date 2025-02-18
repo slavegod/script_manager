@@ -1,6 +1,6 @@
 local manager = {}
 
-local container = Instance.new("Folder"); container.Parent = game:GetService("CoreGui").HiddenUi; container.Name = "threads"
+local container = Instance.new("Folder"); container.Parent = game:GetService("CoreGui").HiddenUI; container.Name = "threads"
 
 local hash_function = function(length : Number)
     if length ~= nil and length <= 32  then
